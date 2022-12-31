@@ -19,7 +19,7 @@ let colorGray = Color(UIColor.systemGray)
 
 //Layout
 
-let columnSpacing: Int = 10
+let columnSpacing: CGFloat = 10
 let rowSpacing: CGFloat = 10
 var gridLayout: [GridItem] {
     return Array(repeating: GridItem.init(.flexible(), spacing: rowSpacing), count: 2)
