@@ -27,6 +27,9 @@
 		18B7045C295A0E7600CE4ECF /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 18B70458295A0E7600CE4ECF /* product.json */; };
 		18B7045D295A0E7600CE4ECF /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 18B70459295A0E7600CE4ECF /* category.json */; };
 		18B7045E295A0E7600CE4ECF /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 18B7045A295A0E7600CE4ECF /* player.json */; };
+		18F712722961989F005CA04D /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F712712961989F005CA04D /* TitleView.swift */; };
+		18F7127429619942005CA04D /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7127329619942005CA04D /* ProductModel.swift */; };
+		18F71276296199B9005CA04D /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F71275296199B9005CA04D /* ProductItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		18B70459295A0E7600CE4ECF /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		18B7045A295A0E7600CE4ECF /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		18B70460295A0EA200CE4ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18F712712961989F005CA04D /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		18F7127329619942005CA04D /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		18F71275296199B9005CA04D /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,8 @@
 				18516A5C2960A409008A2E60 /* CategoryItemView.swift */,
 				18516A5E2960A6A8008A2E60 /* CategoryGridView.swift */,
 				18516A602960A98F008A2E60 /* SectionView.swift */,
+				18F712712961989F005CA04D /* TitleView.swift */,
+				18F71275296199B9005CA04D /* ProductItemView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 			children = (
 				18116FE4295C89280013C688 /* PlayerModel.swift */,
 				18516A5A2960A353008A2E60 /* CategoryModel.swift */,
+				18F7127329619942005CA04D /* ProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -258,6 +267,7 @@
 				18116FE7295C89500013C688 /* CodableBundleExtension.swift in Sources */,
 				18B7044C295A0B5E00CE4ECF /* ContentView.swift in Sources */,
 				18116FE3295C7E950013C688 /* LogoView.swift in Sources */,
+				18F71276296199B9005CA04D /* ProductItemView.swift in Sources */,
 				18677800295AC83F0021A524 /* FooterView.swift in Sources */,
 				18116FE9295CA8260013C688 /* FeaturedItemView.swift in Sources */,
 				18B7044A295A0B5E00CE4ECF /* ECommerceAppApp.swift in Sources */,
@@ -269,6 +279,8 @@
 				18516A5D2960A409008A2E60 /* CategoryItemView.swift in Sources */,
 				18116FEB295CAA150013C688 /* FeaturedTabView.swift in Sources */,
 				18116FE5295C89280013C688 /* PlayerModel.swift in Sources */,
+				18F712722961989F005CA04D /* TitleView.swift in Sources */,
+				18F7127429619942005CA04D /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
