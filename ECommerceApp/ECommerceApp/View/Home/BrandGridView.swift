@@ -25,6 +25,6 @@ struct BrandGridView_Previews: PreviewProvider {
     static var previews: some View {
         BrandGridView()
             .previewLayout(.sizeThatFits)
-            .background(colorBackground)
+            .background(colorGray)
     }
 }

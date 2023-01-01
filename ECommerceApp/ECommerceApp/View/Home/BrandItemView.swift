@@ -27,6 +27,6 @@ struct BrandItemView_Previews: PreviewProvider {
         BrandItemView(brand: brands[0])
             .previewLayout(.sizeThatFits)
             .padding()
-            .background(colorBackground)
+            .background(colorGray)
     }
 }

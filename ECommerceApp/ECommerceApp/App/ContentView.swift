@@ -22,32 +22,31 @@ struct ContentView: View {
                     .background(.white)
                     .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
-                ScrollView(.vertical, showsIndicators: true) {
-                    VStack(spacing: 0) {
-                        FeaturedTabView()
-                            .padding(.vertical, 10)
-                            .frame(height: UIScreen.main.bounds.width / 1.475)
-                        
-                        CategoryGridView()
-                        
-                        TitleView(title: "Helmets")
-                        
-                        LazyVGrid(columns: gridLayout) {
-                            ForEach(products) { product in
-                                ProductItemView(product: product)
-                            } //: Loop
-                        }//: Grid
-                        .padding(15)
-                        
-                        TitleView(title: "Brand")
-                        
-                        BrandGridView()
-                        
-                        FooterView()
-                            .padding(.horizontal)
-                    }
-                } //: ScrollView
-                
+                    ScrollView(.vertical, showsIndicators: true) {
+                        VStack(spacing: 0) {
+                            FeaturedTabView()
+                                .padding(.vertical, 10)
+                                .frame(height: UIScreen.main.bounds.width / 1.475)
+                            
+                            CategoryGridView()
+                            
+                            TitleView(title: "Helmets")
+                            
+                            LazyVGrid(columns: gridLayout) {
+                                ForEach(products) { product in
+                                    ProductItemView(product: product)
+                                } //: Loop
+                            }//: Grid
+                            .padding(15)
+                            
+                            TitleView(title: "Brand")
+                            
+                            BrandGridView()
+                            
+                            FooterView()
+                                .padding(.horizontal)
+                        }
+                    } //: ScrollView
             } //: VStack
             .background(colorBackground)
         }
