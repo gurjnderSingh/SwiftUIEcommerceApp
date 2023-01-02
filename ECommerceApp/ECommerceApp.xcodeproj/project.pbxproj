@@ -14,6 +14,8 @@
 		18116FE9295CA8260013C688 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116FE8295CA8260013C688 /* FeaturedItemView.swift */; };
 		18116FEB295CAA150013C688 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18116FEA295CAA150013C688 /* FeaturedTabView.swift */; };
 		1835B2E2296280A300D0D85F /* RatingSizeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835B2E1296280A300D0D85F /* RatingSizeDetailView.swift */; };
+		1835B2E4296284AE00D0D85F /* QuantityFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835B2E3296284AE00D0D85F /* QuantityFavouriteDetailView.swift */; };
+		1835B2E62962864200D0D85F /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1835B2E52962864200D0D85F /* AddToCartDetailView.swift */; };
 		18516A5B2960A353008A2E60 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18516A5A2960A353008A2E60 /* CategoryModel.swift */; };
 		18516A5D2960A409008A2E60 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18516A5C2960A409008A2E60 /* CategoryItemView.swift */; };
 		18516A5F2960A6A8008A2E60 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18516A5E2960A6A8008A2E60 /* CategoryGridView.swift */; };
@@ -49,6 +51,8 @@
 		18116FE8295CA8260013C688 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		18116FEA295CAA150013C688 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		1835B2E1296280A300D0D85F /* RatingSizeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingSizeDetailView.swift; sourceTree = "<group>"; };
+		1835B2E3296284AE00D0D85F /* QuantityFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityFavouriteDetailView.swift; sourceTree = "<group>"; };
+		1835B2E52962864200D0D85F /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
 		18516A5A2960A353008A2E60 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		18516A5C2960A409008A2E60 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
 		18516A5E2960A6A8008A2E60 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				18F712812961A742005CA04D /* HeaderDetailView.swift */,
 				18F712832961A7E8005CA04D /* TopPartDetailView.swift */,
 				1835B2E1296280A300D0D85F /* RatingSizeDetailView.swift */,
+				1835B2E3296284AE00D0D85F /* QuantityFavouriteDetailView.swift */,
+				1835B2E52962864200D0D85F /* AddToCartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 				18F71276296199B9005CA04D /* ProductItemView.swift in Sources */,
 				18677800295AC83F0021A524 /* FooterView.swift in Sources */,
 				18116FE9295CA8260013C688 /* FeaturedItemView.swift in Sources */,
+				1835B2E62962864200D0D85F /* AddToCartDetailView.swift in Sources */,
 				18F7127C29619FA1005CA04D /* BrandGridView.swift in Sources */,
 				18B7044A295A0B5E00CE4ECF /* ECommerceAppApp.swift in Sources */,
 				18F7127E2961A0B1005CA04D /* ProductDetailView.swift in Sources */,
@@ -316,6 +323,7 @@
 				18116FE5295C89280013C688 /* PlayerModel.swift in Sources */,
 				18F7127829619D41005CA04D /* BrandModel.swift in Sources */,
 				18F712722961989F005CA04D /* TitleView.swift in Sources */,
+				1835B2E4296284AE00D0D85F /* QuantityFavouriteDetailView.swift in Sources */,
 				18F7127429619942005CA04D /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,6 +25,10 @@ struct ProductDetailView: View {
             //Detail bottom part
             VStack(alignment: .center, spacing: 0) {
                 // Rating + Size
+                RatingSizeDetailView()
+                    .padding(.top, -20)
+                    .padding(.bottom, 10)
+                
                 // Description
                 ScrollView(.vertical) {
                     Text(sampleProduct.description)
@@ -32,7 +36,15 @@ struct ProductDetailView: View {
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
                 }
+                
                 // Quantity + Favourite
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
+                
+                // Add To Car
+                AddToCartDetailView()
+                    .padding(.top, 4)
+                    .padding(.bottom, 20)
                 Spacer()
             }
             .padding()
