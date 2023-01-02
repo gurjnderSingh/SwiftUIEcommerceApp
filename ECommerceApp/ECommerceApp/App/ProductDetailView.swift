@@ -21,9 +21,27 @@ struct ProductDetailView: View {
             
             TopPartDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
             //Detail bottom part
-            Spacer()
+            VStack(alignment: .center, spacing: 0) {
+                // Rating + Size
+                // Description
+                ScrollView(.vertical) {
+                    Text(sampleProduct.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.leading)
+                }
+                // Quantity + Favourite
+                Spacer()
+            }
+            .padding()
+            .background(
+                Color.white.clipShape(CustomShape())
+                    .padding(.top, -105)
+            )
         }
+        .zIndex(0)
         .ignoresSafeArea(.all, edges: .all)
         .background(Color(red: sampleProduct.red, green: sampleProduct.green, blue: sampleProduct.blue)
         ).ignoresSafeArea(.all, edges: .all)
